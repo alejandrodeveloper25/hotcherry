@@ -1,4 +1,7 @@
 html{
     background: rgb(255,63,99);
-background: radial-gradient(circle, rgba(255,63,99,1) 7%, rgba(246,23,72,1) 34%, rgba(125,6,43,1) 100%);
+    background: -moz-radial-gradient(circle, rgba(255,63,99,1) 7%, rgba(246,23,72,1) 34%, rgba(125,6,43,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,63,99,1) 7%, rgba(246,23,72,1) 34%, rgba(125,6,43,1) 100%);
+    background: radial-gradient(circle, rgba(255,63,99,1) 7%, rgba(246,23,72,1) 34%, rgba(125,6,43,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3f63",endColorstr="#7d062b",GradientType=1);
 }

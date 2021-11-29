@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExpectationComponent } from './components/expectation/expectation.component';
+
 
 @NgModule({
   declarations: [
@@ -13,8 +12,8 @@ import { ExpectationComponent } from './components/expectation/expectation.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ParallaxModule
+    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

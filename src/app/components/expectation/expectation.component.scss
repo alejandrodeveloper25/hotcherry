@@ -1,0 +1,28 @@
+.col-md-3{
+    label.num{
+        position: relative;
+        bottom: 110px;
+        font-size: 47px;
+        font-weight: 700;
+        width: 100%;
+    }
+    label.title{
+        position: relative;
+        bottom: 117px;
+        font-size: 11px;
+    }
+}
+
+
+.col-xs-6{
+    @media only screen and (max-width: 550px){
+        position: relative;
+        width: 45%;
+        padding-right: 15px;
+        padding-left: 15px;
+    } 
+}
+
+.txt{
+    font-family: 'komikax';
+}
